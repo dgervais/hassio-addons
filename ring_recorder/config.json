@@ -1,0 +1,24 @@
+{
+  "name": "ring recorder",
+  "version": "0.0.1",
+  "slug": "ring_recorder",
+  "description": "Record video from Ring doorbells by transcoding live streams",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+    "token": "add token generated with ring-auth-cli here. See https://github.com/dgreif/ring/wiki/Refresh-Tokens for details"
+  },
+  "schema": {
+    "token": "str"
+  },
+  "ports": {
+    "8000/tcp": 8000
+  }
+}
