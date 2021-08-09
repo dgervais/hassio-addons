@@ -1,6 +1,6 @@
 {
   "name": "ring recorder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "slug": "ring_recorder",
   "description": "Record video from Ring doorbells by transcoding live streams",
   "arch": [
